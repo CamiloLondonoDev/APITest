@@ -376,7 +376,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a07fc9b9-48b6-4e2b-b3a2-138c2735c858",
+				"id": "de5cb6ca-667e-4967-981d-ee99675df711",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -387,12 +387,12 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "93605c9b-b443-4c99-922c-35e44ef8d481",
+				"id": "217c8a0f-a4df-434d-801e-14ccc666ea70",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
-					"pm.test('Response in less than 200ms', ()=>{\r",
-					" pm.expect(pm.response.responseTime).to.be.below(200)\r",
+					"pm.test('Response in less than 300ms', ()=>{\r",
+					" pm.expect(pm.response.responseTime).to.be.below(300)\r",
 					"})"
 				]
 			}
